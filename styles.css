@@ -1,0 +1,362 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 5% 15%;
+}
+
+#photo .container-fluid{
+  padding: 0%
+}
+
+/* Home Page */
+.hover-gray:hover{
+  background-color: #2C2C2D;
+  /* background-color: #9CB392; */
+}
+.leftside, .rightside{
+  height:50vh;
+  width:100%;
+}
+
+@media screen and (min-width:768px){
+  .leftside, .rightside{
+    height:100vh;
+  }
+}
+
+.leftside{
+  background:white;
+}
+
+.rightside{
+  background:black;
+}
+
+.title-image {
+  width: 85%;
+  position: absolute;
+  /* right: 10%; */
+}
+
+/* Entertainment Home Page */
+.dark-gray-section{
+  background-color: #1A1A1A;
+  color: #white;
+}
+
+.DJ-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/dj.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.DJ-icon:hover{
+  background-image: url('https://img.icons8.com/ios-filled/100/587850/dj.png');
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  /*padding: 4.5%;*/
+  padding: 2%;
+  margin-left: 2 rem;
+  margin-right: 2 rem;
+}
+
+.gray-section {
+  background-color: #DDDDDD;
+  color: #black;
+}
+
+.hair-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/hair-brush.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.hair-icon:hover{
+  background-image: url('https://img.icons8.com/ios-filled/100/587850/hair-brush.png');
+}
+
+.header-entertainment{
+  /* width:100%; */
+  height:350px;
+  text-align: center;
+  background-image: url('../images/OEwhitebackground.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.image-85{
+  border:10px solid white;
+  height:500px;
+}
+
+.lighting-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/source-four-par.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.lighting-icon:hover{
+  background-image: url('https://img.icons8.com/ios-filled/100/587850/source-four-par.png');
+}
+
+.photobooth-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/selfie-booth.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.photobooth-icon:hover{
+  background-image: url('https://img.icons8.com/ios-filled/100/587850/selfie-booth.png');
+}
+
+.photography-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/pastel-glyph/100/1A1A1A/compact-camera.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.photography-icon:hover{
+  background-image: url('https://img.icons8.com/pastel-glyph/100/587850/compact-camera.png');
+}
+
+.services-icon:hover{
+  color:white;
+}
+
+.star{
+  color:#1A1A1A;
+}
+
+.videography-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/camcorder-pro.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.videography-icon:hover{
+  background-image: url('https://img.icons8.com/ios-filled/100/587850/camcorder-pro.png');
+}
+
+.wedding-image{
+  /* width: 85%; */
+  border:10px solid #FFFFFF;
+  height:200px;
+  width:300px;
+  /* padding:5px; */
+  /* position: absolute; */
+}
+
+.yard-games-icon{
+  /* width:100%; */
+  height:100px;
+  width:100px;
+  text-align: center;
+  background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/bocce.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.yard-games-icon:hover{
+  background-image: url('https://img.icons8.com/ios-filled/100/587850/bocce.png');
+}
+
+/* Recording Studio Home Page */
+/* header/navigation bar*/
+.header{
+  /* width:100%; */
+  height:350px;
+  text-align: center;
+  background-image: url('../images/ORwhitebackground.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+.navbar{
+  background: rgba(2,2,2,0.8);
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+.derek-studio-photo{
+  height:350px;
+  text-align: center;
+  background-image: url('../images/recordingStudioHomePhoto.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100% auto;
+}
+
+/* The following two classes change the color of the carousel arrows to black (default is white) */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* This class centers the picture of the recording studio */
+.centered{
+  margin: 0 auto 0 auto;
+}
+
+.colored-section {
+  background-color: #102D43;
+  color: #fff;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight:bold;
+  padding-top:5px;
+}
+
+.feature-box {
+  /*padding: 4.5%;*/
+  padding: 2%;
+  margin-left: 2 rem;
+  margin-right: 2 rem;
+}
+.icon {
+  color: #DDDDDD;
+  margin: 20px 10px;
+}
+
+.icon:hover {
+  color: #9CB392;
+}
+
+.logo {
+  width: 25%;
+  left: 30%;
+}
+
+
+
+/* This class sets the size of the recording studio photo */
+.recording-photo{
+  width: 35%;
+}
+
+.studio-photo {
+  background-image: url('../images/pianoAndRecord.png'); /* The image used */
+  background-color: white; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  width: 100%
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#title {
+  background-color: #fff;
+  color: #102D43;
+  text-align: left;
+}
+
+#header .container-fluid {
+  /* padding: 3% 15% 7%; */
+  padding: 3% 0% 3% 0%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+/*Entertainment Pages*/
+.black-background{
+  background-color: black;
+}
+
+/* Socials and Attribution */
+.attribution{
+padding: 100px;
+}
+
+/* attritbution footer */
+.white-section {
+  background-color: #white;
+}
